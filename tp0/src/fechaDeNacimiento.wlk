@@ -1,5 +1,5 @@
 object alanFacundoGarcia {
+
+	method fechaDeNacimiento() = new Date(15, 08, 1993)
 	
-	var fecha = 100
-	method fecha(fechosa) = fechosa
 }

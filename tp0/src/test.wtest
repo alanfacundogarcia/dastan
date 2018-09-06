@@ -1,0 +1,10 @@
+import fechaDeNacimiento.*
+describe "test de edad" {
+	method fechaDeHoy() = new Date()
+test "La edad de Alan es 25" {
+	
+	assert.equals(25,self.fechaDeHoy().year()-alanFacundoGarcia.fechaDeNacimiento().year())
+
+}
+
+}
